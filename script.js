@@ -27,7 +27,7 @@ function renderMenu(){
   grid.innerHTML=items.map((x,i)=>`<article class="menu-card">
     <div class="menu-card-top"><h3>${escapeHtml(x.name)}</h3><span class="price">${escapeHtml(x.price)}</span></div>
     <p>${escapeHtml(x.description)}</p>
-    <button class="add" onclick="href="tel:+19062071000"">Call Us for Availability! ↗</button>
+    <button class="add" onclick="href="tel:+19062071000"">Call Us for Availability!</button>
   </article>`).join("");
 }
 function renderEditor(){
